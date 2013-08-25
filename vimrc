@@ -1,4 +1,5 @@
 set nocompatible
+set paste
 filetype on
 filetype off
 
