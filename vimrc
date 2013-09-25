@@ -1,5 +1,4 @@
 set nocompatible
-set paste
 filetype on
 filetype off
 
@@ -40,7 +39,7 @@ Bundle 'tpope/vim-repeat'
 Bundle 'nelstrom/vim-textobj-rubyblock'
 Bundle 'kana/vim-textobj-user'
 Bundle 'scrooloose/nerdtree'
-Bundle 'Lokaltog/vim-powerline'
+Bundle 'Lokaltog/powerline', {'rtp': 'powerline/bindings/vim/'}
 Bundle 'chrisbra/NrrwRgn'
 Bundle 'Lokaltog/vim-easymotion'
 Bundle 'jshint.vim'
@@ -65,27 +64,11 @@ Bundle 'nathanaelkane/vim-indent-guides'
 " SnipMate stuff
 Bundle "MarcWeber/vim-addon-mw-utils"
 Bundle "tomtom/tlib_vim"
-Bundle "honza/snipmate-snippets"
+Bundle "honza/vim-snippets"
 Bundle "garbas/vim-snipmate"
 
 " Colors
-Bundle 'tpope/vim-vividchalk'
-Bundle 'scottymoon/vim-twilight'
-Bundle 'd11wtq/tomorrow-theme-vim'
 Bundle 'altercation/vim-colors-solarized'
-Bundle 'moria'
-Bundle '29decibel/codeschool-vim-theme'
-Bundle 'Lucius'
-Bundle 'Mustang2'
-Bundle 'cschlueter/vim-clouds'
-Bundle 'tomasr/molokai'
-Bundle 'gregsexton/Muon'
-Bundle 'summerfruit256.vim'
-Bundle 'pyte'
-Bundle 'jpo/vim-railscasts-theme'
-Bundle 'github-theme'
-Bundle 'Wombat'
-Bundle 'jellybeans.vim'
 
 " My own settings
 Bundle 'nicholaides/my.vim'
