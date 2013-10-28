@@ -71,6 +71,6 @@ Bundle "garbas/vim-snipmate"
 Bundle 'altercation/vim-colors-solarized'
 
 " My own settings
-Bundle 'nicholaides/my.vim'
+Bundle 'dgrizzanti/my.vim'
 
 filetype plugin indent on
